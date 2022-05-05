@@ -1,0 +1,35 @@
+.calculator {height: 732px; box-sizing: border-box;}				
+			.calculator_title {line-height: 93px;text-align: center;margin: 20px 0px; color: #000;}
+			.calculator_fix {width: 100%;margin: 0px auto;display: flex; justify-content: space-around;padding: 30px 0px;}
+				.calculator_left {width: 493px;}
+					.slidecontainer {margin: 0 0 42px;}
+						.slidecontainer_title {font-size: 18px;line-height: normal;color: #000;margin-bottom: 15px;}
+						.slidecontainer form {width: 355px; height: 102px;position: relative;}
+							.slidecontainer input:nth-child(1) {width: 379px; height: 72px;font-size: 25px; padding-left: 25px;border-radius: 3px; border: none;outline:none;}
+							.slidecontainer input:nth-child(2){width: 380px;position: absolute;bottom: 15px;bottom: 19px;right: -26px;background:blue;}
+					.calc_type_roof {width: 493px; height: 107px;}	
+						.calc_type_roof_tittle {font-size: 18px;line-height: normal;color: #000;margin-bottom: 15px;}
+						.calc_type_roof_blocks {}
+							.calc_type_roof_blocks label {display: inline-block;position: relative;vertical-align: top;margin: 4px 5px 5px 0;width: 208px;}
+							.calc_type_roof_blocks label input {margin: 0;position: absolute;z-index: -1;opacity: 0;}
+							.type_roof_1_title {display: block;font-size: 16px;font-weight: 600;line-height: normal;padding: 19px 30px;border: 2px solid #cdd1d7;text-align: center;cursor: pointer;user-select: none;outline: 2px solid transparent;outline-color: transparent;outline-offset: -2px; color: #000;outline-color: red;}
+							.type_roof_2_title {display: block;font-size: 16px;font-weight: 600;line-height: normal;padding: 19px 30px;border: 2px solid #000;text-align: center;cursor: pointer;user-select: none;outline: 2px solid transparent;outline-color: transparent;outline-offset: -2px; color: #000;}
+						.calc_materials_roof {width: 493px; height: 107px;margin-top: 42px;}	
+							.calc_materials_roof_title {font-size: 18px;line-height: normal;color: #000;margin-bottom: 15px;}
+							.calc_materials_roof_blocks {}
+								.calc_materials_roof_blocks label {display: inline-block;position: relative;vertical-align: top;margin: 4px 5px 5px 0;width: 208px;}
+							.calc_materials_roof_blocks label input {margin: 0;position: absolute;z-index: -1;opacity: 0;}
+							.materials_roof_1_title {display: block;font-size: 16px;font-weight: 600;line-height: normal;padding: 19px 30px;border: 2px solid #cdd1d7;text-align: center;cursor: pointer;user-select: none;outline: 2px solid transparent;outline-color: transparent;outline-offset: -2px; color: #000;outline-color: red;}
+							.materials_roof_2_title {display: block;font-size: 16px;font-weight: 600;line-height: normal;padding: 19px 30px;border: 2px solid #000;text-align: center;cursor: pointer;user-select: none;outline: 2px solid transparent;outline-color: transparent;outline-offset: -2px; color: #000;}
+				.calculator_right {width: 493px;}				
+					.calc_cost {display: flex; flex-direction: column;margin: 0 0 1.9em;}
+						.calc_cost_title {font-size: 18px;line-height: normal;color: #000;margin-bottom: 15px;}
+						.calc_cost_summ {font-size: 36px;line-height: 1; font-weight: 700;color: #000;position: absolute;top: -12px;right: -300px;}
+					.calc_button {}	
+						.calc_button_desc {color: #000;font-size: 14px;line-height: 1.7142857143;}
+						.calc_button_call {width: 175px; line-height: 70px;background: red; border-radius: 5px;text-align: center;color: #fff;font-weight: 700;font-size: 18px;text-transform: uppercase;margin-top: 15px; margin-bottom: 10px;cursor: pointer;display: block;}
+						.calc_button_call:hover {color: #000;}
+						.calc_button_info {opacity: 0.7;color: #000;font-size: 13px;}
+					.calc_form input {    height: 200px; width: 390px;font-size: 60px; padding-left: 35px;}	
+						
+				

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calc</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js" ></script>
+	
+</head>
+<body>
+	<div class="calculator">
+				
+				<div class="calculator_fix"> 
+					<div class="calculator_left">
+						<div class="slidecontainer">
+							<div class="slidecontainer_title">Площадь крыши м2:</div>
+						  	<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+						  		<input type="text" for="flying" name="level" id="level" placeholder="10">
+								<input name="flevel" id="flying" type="range" min="10" max="500" step="1" data-unit="м2" value="10">
+								<div id="demo" class="calc_cost_summ"></div>
+							</form>
+						</div>
+						<div class="calc_type_roof">
+							<div class="calc_type_roof_tittle">Тип крыши:</div>
+							<div class="calc_type_roof_blocks">
+								<label>
+									<input type="radio" name="type_roof_1" id="type_roof_1" value="200">
+									<div class="type_roof_1_title">Холодная крыша</div>
+								</label>
+								<label>
+									<input type="radio" name="type_roof_2" value="300">
+									<div class="type_roof_2_title">Теплая крыша</div>
+								</label>
+							</div>
+							<div class="calc_materials_roof">
+								<div class="calc_materials_roof_title">Материалы</div>
+								<div class="calc_materials_roof_blocks">
+									<label>
+										<input type="radio" name="materials_roof_1" value="">
+										<div class="materials_roof_1_title">Без материалов</div>
+									</label>
+									<label>
+										<input type="radio" name="materials_roof_2" value="400">
+										<div class="materials_roof_2_title">С материалами</div>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="calculator_right">
+						<div class="calc_cost">
+							<div class="calc_cost_title">Примерная стоимость:</div>
+							<div class="calc_cost_summ" id="summ"></div>
+						</div>
+						<div class="calc_button">
+							<div class="calc_button_desc">В стоимость работ входит: стропильная система, устройство кровельного пирога, монтаж доборов и водосточной системы</div>
+							<a href="#zakaz" class="calc_button_call">Заказать</a>
+							<div class="calc_button_info">* Для точной стоимости нужно учитывать особенности объекта</div>
+						</div>
+						<div class="calc_form">
+							<form action="">
+								<input type="text" placeholder="Значение" name="time">
+							</form>
+						</div>
+					</div>
+				</div>
+				
+	</body>
+</html>
